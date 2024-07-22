@@ -19,7 +19,7 @@ INT main(INT argc, PCHAR argv[])
 	PCHAR DllPath = argv[2];
 	BOOL ReturnValue = FALSE;
 
-    INT Retval = Inj(Pid, DllPath);
+        INT Retval = Inj(Pid, DllPath);
 		
 	return 0;
 }
